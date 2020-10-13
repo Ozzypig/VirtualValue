@@ -1,0 +1,11 @@
+{
+	"name": "Modules",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Modules": { "$path": "lib\\Modules\\Modules.rbxmx" },
+            "VirtualValue": { "$path": "src" }
+		}
+	}
+}

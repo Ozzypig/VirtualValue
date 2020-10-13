@@ -1,0 +1,39 @@
+{
+	"name": "Modules",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"VirtualValueTest": {
+				"$path": "test\\ReplicatedStorage"
+			},
+			"TestRunner": {
+				"$path": "test\\TestRunner.lua"
+			},
+
+			"Modules": { "$path": "lib\\Modules\\Modules.rbxmx" },
+            "VirtualValue": { "$path": "src" }
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"VirtualValueTest": {
+				"$path": "test\\ServerScriptService"
+			}
+		},
+		"Players": {
+			"$className": "Players",
+			"$ignoreUnknownInstances": true,
+			"$properties": {
+				"CharacterAutoLoads": false
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"$ignoreUnknownInstances": true,
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "test\\StarterPlayer\\StarterPlayerScripts"
+			}
+		}
+	}
+}

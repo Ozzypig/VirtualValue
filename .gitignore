@@ -1,0 +1,21 @@
+# Rojo-built Roblox files
+VirtualValue.rbxmx
+VirtualValue-test.rbxlx
+VirtualValue-test.rbxlx.lock
+VirtualValue-boilerplate.rbxlx
+VirtualValue-boilerplate.rbxlx.lock
+
+# Python virtual environment and Lua environment (for hererocks)
+.python/*
+.lua/*
+
+# Built documentation site
+site/*
+
+# Visual Studio Code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
